@@ -14,3 +14,6 @@ Once it has all the values, it will apply the path finding algorithm, starting o
 
 ## Displaying the map
 The robot uses a black square to display a wall and a white square to display the absence of a wall. Each tile is represented by a square made up of 4 squares. The upper ones denote the North position and the left ones the West position. If both positions have a wall (a corner), the tile will be displayed with 3 black squares and 1 white square. With a bit of twicking for a couple of special cases, the robot displays in a neat way all the information recorded during the navigation process.
+
+# Files
+There are 2 files. The python file for easy reading, and the .vrpython file. This last file is the one that VEXcode uses to run the robot.
